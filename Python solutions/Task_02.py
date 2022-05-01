@@ -14,3 +14,22 @@ find the sum of the even-valued terms.
 
 Найдите сумму всех четных элементов ряда Фибоначчи, которые не превышают четыре миллиона.
 '''
+
+treshold = 4000000
+
+fib_start = [1, 2]
+fib = fib_start
+# fib_even = []
+
+# Fill fibonachy list
+while (fib[-1] < treshold) & (sum(fib[-2:]) < treshold):
+    fib.append(sum(fib[-2:]))
+
+
+fib_even = [n for n in fib if n % 2 == 0]
+
+final_sum = sum(fib_even)
+
+result_text = "Final sum = " + "{:,}".format(final_sum)
+
+print(result_text)
