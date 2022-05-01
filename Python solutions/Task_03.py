@@ -7,3 +7,37 @@ What is the largest prime factor of the number 600851475143 ?
 Каков самый большой делитель числа 600851475143, являющийся простым числом?
 
 '''
+
+
+def isPrime(num):
+    if num > 1:
+        for i in range(2, num // 2):
+            if (num % i) == 0:
+                return False
+            else:
+                return True  # print(num, "is a prime number")
+    else:
+        return False
+
+
+def primes_method5(n):
+    out = list()
+    sieve = [True] * (n + 1)
+    for p in range(2, n + 1):
+        if (sieve[p] and sieve[p] % 2 == 1):
+            out.append(p)
+            for i in range(p, n + 1, p):
+                sieve[i] = False
+    return out
+
+
+number = 86756 #600851475143
+denums = [n for n in primes_method5(number) if number % n == 0]
+
+
+final_text = "The largest prime factor = " + str(max(denums))
+
+
+print("List of prime deviders: " + str(denums))
+
+print(final_text)
