@@ -23,12 +23,20 @@ Find the difference between the sum of the squares of the first one hundred natu
 Найдите разность между суммой квадратов и квадратом суммы первых ста натуральных чисел.
 '''
 
-threshold = 10
+threshold = 100
 n = 1
 first100nat = []
 while n < threshold+1:
     first100nat.append(n)
     n += 1
 
+squared = [i**2 for i in first100nat]
 
-print(first100nat)
+sumOfSquared = sum(squared)
+
+SquaredSum = sum(first100nat) ** 2
+
+answer = SquaredSum - sumOfSquared
+
+
+print(answer)
