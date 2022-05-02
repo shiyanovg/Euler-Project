@@ -9,3 +9,10 @@ What is the sum of the digits of the number 2^1000?
 '''
 
 
+number = 2**1000
+digits = [int(d) for d in str(number)]
+digits_sum = sum(digits)
+
+print("Initial number: " + str(number))
+print("Digits: " + str(digits))
+print("Sum of digits = " + str(digits_sum))
