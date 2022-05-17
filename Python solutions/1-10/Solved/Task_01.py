@@ -8,16 +8,18 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 Найдите сумму всех чисел меньше 1000, кратных 3 или 5.
 '''
 
-list = []
+mylist = []
 
 n = 1
 threshold = 1000
 
 while n < threshold:
-    if n % 3 and n % 5:
+    if n % 3==0 or n % 5==0:
         list.append(n)
     n += 1
 
-total_sum = sum(list)
+print(mylist)
+
+total_sum = sum(mylist)
 
 print("Total sum = " + "{:,}".format(total_sum))
