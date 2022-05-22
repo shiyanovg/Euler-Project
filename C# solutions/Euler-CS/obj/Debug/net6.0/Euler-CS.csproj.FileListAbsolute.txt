@@ -1,0 +1,15 @@
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\bin\Debug\net6.0\Euler-CS.exe
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\bin\Debug\net6.0\Euler-CS.deps.json
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\bin\Debug\net6.0\Euler-CS.runtimeconfig.json
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\bin\Debug\net6.0\Euler-CS.dll
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\bin\Debug\net6.0\Euler-CS.pdb
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\obj\Debug\net6.0\Euler-CS.csproj.AssemblyReference.cache
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\obj\Debug\net6.0\Euler-CS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\obj\Debug\net6.0\Euler-CS.AssemblyInfoInputs.cache
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\obj\Debug\net6.0\Euler-CS.AssemblyInfo.cs
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\obj\Debug\net6.0\Euler-CS.csproj.CoreCompileInputs.cache
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\obj\Debug\net6.0\Euler-CS.dll
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\obj\Debug\net6.0\refint\Euler-CS.dll
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\obj\Debug\net6.0\Euler-CS.pdb
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\obj\Debug\net6.0\Euler-CS.genruntimeconfig.cache
+C:\Users\gshiyanov\PycharmProjects\Euler-Project\C# solutions\Euler-CS\obj\Debug\net6.0\ref\Euler-CS.dll
